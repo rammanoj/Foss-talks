@@ -247,9 +247,8 @@ footer {
 
 @media(min-width:768px) {
     .custom-navbar {
-        padding: 20px 0;
+        padding: 1px 0;
         border-bottom: 0;
-        background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
         background: #101010;
@@ -264,7 +263,7 @@ footer {
     Intro section
 -----------------------------------------*/
 #intro {
-    background: url('../images/man2.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/audio-concert-hand-33779.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
