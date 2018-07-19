@@ -427,6 +427,7 @@ footer {
     background-size: cover;
     background-position: center center;
     color: #ffffff;
+    font-family: fantasy;
 }
 
 #register .form-control {
@@ -528,11 +529,13 @@ footer {
    Venue section
 -----------------------------------------*/
 #venue {
-    background: url('../images/hall.jpeg') 50% 0 repeat-y fixed;
+    background: url('../images/hallh.jpg') 50% 0 repeat-y fixed;
     background-size: fixed;
     background-position: center center;
     padding-top: 7rem;
     padding-bottom: 7rem;
+    color: white;
+    font-family: fantasy;
 }
 
 #venue p {
