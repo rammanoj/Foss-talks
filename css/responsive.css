@@ -54,10 +54,10 @@
         margin-top: 20px;
     }
     .mainmenu-area .navbar-toggle .icon-bar {
-        background-color: #ffffff;
+        background-color: #404040;
     }
     .mainmenu-area #primary-menu {
-        background-color: #138FC2;
+        background-color: #404040;
     }
     .mainmenu-area #primary-menu ul {
         overflow-y: auto;
