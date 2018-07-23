@@ -310,10 +310,10 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area .logo {
     text-transform: uppercase;
-    letter-spacing: 20px;
+    letter-spacing: 0px;
     height: inherit;
     margin-top: 8px;
-    padding-left: 50;
+    padding-left: 0;
 }
 
 .mainmenu-area .logo h2 {
