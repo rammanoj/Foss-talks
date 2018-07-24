@@ -981,5 +981,6 @@ preloader
     }
 }
 .section-pad {
-  padding: 300px;
+  padding-bottom: 150px;
+  padding-top: 150px;
 }
