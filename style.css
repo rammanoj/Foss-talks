@@ -172,10 +172,11 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: black;
-    background: -webkit-gradient(linear, left top, left bottom, from(#1d3a47), to(#1f5064));
-    background: linear-gradient(to bottom, #1d3a47 0%, #1f5064 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3a47', endColorstr='#1f5064', GradientType=0);
+   
+-    background: #75cbe7;
+-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
+-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
+-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     color: #ffffff;
 }
 
@@ -358,7 +359,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #1f5064;;
+     background-color: #138fc2;
 }
 
 
@@ -599,7 +600,9 @@ input:-webkit-autofill:focus {
 ***/
 
 .testimonial-area {
-    position: relative;
+     background: url('images/parallax-7.jpg') no-repeat scroll center center / cover;
+     position: relative;
+-    color: #ffffff;
 }
 
 .testimonial-area:before {
