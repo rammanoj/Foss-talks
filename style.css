@@ -42,7 +42,7 @@ a {
     outline: none;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    color: #333333;
+    color: grey;
 }
 
 input:focus,
@@ -51,7 +51,8 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #000000;
+    color: white;
+
 }
 
 img {
@@ -172,6 +173,24 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
+
+    background: #75cbe7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
+    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
+
+    color: white;
+}
+
+.gray-bg {
+    background-color: black;
+
+}
+
+.image {
+    background-image: url("images/eionadurrz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
     background: black;
     background: -webkit-gradient(linear, left top, left bottom, from(#1d3a47), to(#1f5064));
     background: linear-gradient(to bottom, #1d3a47 0%, #1f5064 100%);
@@ -182,6 +201,7 @@ input:-webkit-autofill:focus {
 .gray-bg {
       color: #3a4740;
      font-family: inherit;
+
 }
 
 /**
@@ -222,6 +242,10 @@ input:-webkit-autofill:focus {
 
 .page-title {
     margin-bottom: 60px;
+}
+
+.registration {
+    margin-top: 75px;
 }
 
 .page-title h2 {
@@ -306,7 +330,7 @@ input:-webkit-autofill:focus {
 .overlay,
 .overlay a,
 .mainmenu-area a {
-    color: #ffffff;
+    color: floralwhite;
 }
 
 .mainmenu-area .logo {
@@ -373,7 +397,7 @@ input:-webkit-autofill:focus {
 }
 
 .anlge-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+    background: url('images/audio-concert-hand-33779.jpg') no-repeat scroll center bottom -120px / 100% auto;
 }
 
 .overlay {
