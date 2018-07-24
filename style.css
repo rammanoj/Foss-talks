@@ -17,7 +17,7 @@ CSS INDEX
 7. Header-style
 8. Headline-style
 9. Skills-area
-10. Service-area
+10. Overview-area
 11. Work-area
 12. Team-area
 13. Bar-effect-css
@@ -172,7 +172,7 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: #75cbe7;
+    background: black;
     background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
     background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
@@ -180,7 +180,18 @@ input:-webkit-autofill:focus {
 }
 
 .gray-bg {
-    background-color: #f2fefe;
+    background-color: black;
+    font-family: inherit;
+    color: black;
+}
+.image {
+
+    background-image: url("images/augmented-reality-1853592_1920.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    filter: alpha(opacity=10);
 }
 
 /**
