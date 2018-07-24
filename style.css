@@ -152,7 +152,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     line-height: 2.5em;
     background-color: #ffffff;
-    color: #1f5064;
+    color: #000000;
     border-radius: 100px;
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
@@ -160,7 +160,7 @@ input:-webkit-autofill:focus {
 }
 
 .social-menu li a:hover {
-    background-color: #1f5064;
+    background-color: #000000;
     color: #ffffff;
     -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
@@ -173,9 +173,9 @@ input:-webkit-autofill:focus {
 .overlay:before,
 .sky-bg {
     background: black;
-    background: -webkit-gradient(linear, left top, left bottom, from(#1d3a47), to(#1f5064));
-    background: linear-gradient(to bottom, #1d3a47 0%, #1f5064 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3a47', endColorstr='#1f5064', GradientType=0);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+    background: linear-gradient(to bottom, #000000 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0);
     color: #ffffff;
 }
 
@@ -358,7 +358,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #1f5064;;
+    background-color: #000000;;
 }
 
 
