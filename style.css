@@ -980,3 +980,6 @@ preloader
         opacity: 0;
     }
 }
+.section-pad {
+  padding: 300px;
+}
