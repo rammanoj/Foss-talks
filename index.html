@@ -29,6 +29,13 @@
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#primary-menu">
@@ -276,73 +283,27 @@
 
 
 
-    <section class="gray-bg section-padding" id="feature-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>SPECIAL FEATURES</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-1.png" alt="">
-                        </div>
-                        <h3>Creative Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-2.png" alt="">
-                        </div>
-                        <h3>Unlimited Features</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-3.png" alt="">
-                        </div>
-                        <h3>Full Free Chat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-4.png" alt="">
-                        </div>
-                        <h3>Retina ready</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-5.png" alt="">
-                        </div>
-                        <h3>High Resolution</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-6.png" alt="">
-                        </div>
-                        <h3>Clean Codes</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="gray-bg section-paddingm" id="feature-page">
+        
+
+
+     <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var amrita = {lat: 9.093828, lng: 76.4917};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 16, center: amrita});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: amrita, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATSNcGiCOQs0oX8SCM7BuiKdrKxf1T18U&callback=initMap">
+    </script>
     </section>
 
 
