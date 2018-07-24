@@ -17,7 +17,7 @@ CSS INDEX
 7. Header-style
 8. Headline-style
 9. Skills-area
-10. Service-area
+10. overview-area
 11. Work-area
 12. Team-area
 13. Bar-effect-css
@@ -104,7 +104,7 @@ input:-webkit-autofill:focus {
     position: relative;
 }
 
-
+.fixed,
 .absolute {
     position: absolute;
     left: 0;
@@ -131,7 +131,7 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding: 120px 0;
+    padding: 150px 0;
 }
 
 .social-menu {
@@ -152,7 +152,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     line-height: 2.5em;
     background-color: #ffffff;
-    color: #138fc2;
+    color: #1f5064;
     border-radius: 100px;
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
@@ -160,7 +160,7 @@ input:-webkit-autofill:focus {
 }
 
 .social-menu li a:hover {
-    background-color: #138fc2;
+    background-color: #1f5064;
     color: #ffffff;
     -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
@@ -172,15 +172,16 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: #75cbe7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
+    background: black;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1d3a47), to(#1f5064));
+    background: linear-gradient(to bottom, #1d3a47 0%, #1f5064 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3a47', endColorstr='#1f5064', GradientType=0);
     color: #ffffff;
 }
 
 .gray-bg {
-    background-color: #f2fefe;
+      color: white;
+     font-family: cursive;
 }
 
 /**
@@ -356,7 +357,9 @@ input:-webkit-autofill:focus {
     border-top: 3px solid #ffffff;
 }
 
-
+.mainmenu-area.affix {
+    background-color: #1f5064;;
+}
 
 
 
@@ -366,34 +369,46 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/audio-concert-hand-33779.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center / cover;
 }
 
-
+.anlge-bg {
+    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+}
 
 .overlay {
     position: relative;
 }
 
-
+.overlay:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8
+}
 
 .header-text h2 {
     margin-bottom: 20px;
     font-size: 40px;
-    padding-left: 250px;
-}
-.header-text h3 {
-    margin-bottom: 20px;
-    font-size: 40px;
-    padding-left: 330px;
 }
 
 .header-text .button {
     margin-top: 30px;
 }
 
+.screen-slider .item {
+    background: url('images/mobile2.png') no-repeat scroll center center / auto 100%;
+    padding: 56px 22px;
+    display: inline-block;
+    margin: auto;
+}
 
-
+.screen-slider.owl-carousel .owl-item {
+    text-align: center
+}
 
 .screen-slider .owl-controls {
     position: absolute;
@@ -584,9 +599,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .testimonial-area {
-    background: url('images/parallax-7.jpg') no-repeat scroll center center / cover;
     position: relative;
-    color: #ffffff;
 }
 
 .testimonial-area:before {
