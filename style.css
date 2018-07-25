@@ -992,6 +992,7 @@ preloader
 }
 
 
+
 /* Back top */
 .go-top {
   background-color: #222;
@@ -1008,3 +1009,8 @@ preloader
   text-align: center;
   transition: all 0.4s ease-in-out;
 }
+.section-pad {
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
