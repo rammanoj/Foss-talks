@@ -51,7 +51,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #000000;
+    color: black;
 }
 
 img {
@@ -530,7 +530,7 @@ input:-webkit-autofill:focus {
 
 
 /***
-*Team-Section
+*Register-Section
 ***/
 
 .single-team {
@@ -592,6 +592,16 @@ input:-webkit-autofill:focus {
 
 .single-team:hover .social-menu {
     bottom: 0;
+}
+
+.imageregister {
+    background-image: url("images/register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hoverregister a:hover{
+    font-size: x-large;
 }
 
 /***
@@ -980,7 +990,27 @@ preloader
         opacity: 0;
     }
 }
+
+
+
+/* Back top */
+.go-top {
+  background-color: #222;
+  bottom: 2em;
+  right: 2em;
+  color: #ffffff;
+  font-size: 32px;
+  display: none;
+  position: fixed;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
 .section-pad {
   padding-bottom: 150px;
   padding-top: 150px;
 }
+
